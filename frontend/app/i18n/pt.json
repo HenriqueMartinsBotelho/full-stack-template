@@ -1,0 +1,8 @@
+{
+  "app.welcome": "Bem-vindo!",
+  "app.description": "Este é um exemplo com react-intl.",
+  "app.items": "{count, plural, one {# item} other {# itens}}",
+  "app.language": "Idioma",
+  "app.sign-out": "Sair",
+  "app.fallback-example": "Msg de Fallback em Português (default)"
+}

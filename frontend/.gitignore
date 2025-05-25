@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+.husky/_
+
+tsdoc/
+bundle-report.html
+
+.env
+
+dist

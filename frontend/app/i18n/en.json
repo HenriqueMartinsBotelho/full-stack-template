@@ -1,0 +1,7 @@
+{
+  "app.welcome": "Welcome!",
+  "app.description": "This is a react-intl example.",
+  "app.items": "{count, plural, one {# item} other {# items}}",
+  "app.language": "Language",
+  "app.sign-out": "Sign Out"
+}
