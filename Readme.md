@@ -23,3 +23,5 @@ This repository serves as a template for building full-stack applications with a
 
 - Docker
 - Amplitude (for analytics)
+
+## Others
