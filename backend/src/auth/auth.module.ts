@@ -7,7 +7,7 @@ import { AuthController } from './auth.controller';
   imports: [
     JwtModule.register({
       secret: 'um-segredo-para-nao-ser-hackeado',
-      signOptions: { expiresIn: '2h' },
+      signOptions: { expiresIn: '2h', algorithm: 'HS256' },
     }),
   ],
   controllers: [AuthController],

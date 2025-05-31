@@ -12,6 +12,15 @@ This repository serves as a template for building full-stack applications with a
 
 # Backend
 
+To run the backend, follow these steps:
+
+1. Navigate to the backend directory.
+1. Install dependencies using `npm install`.
+1. Set up your environment variables in a `.env` file.
+1. Start the database using Docker with `docker-compose up`.
+1. Run the database migrations using `npx prisma migrate dev`.
+1. Start the backend server with `npm run start:dev`.
+
 ## Used Technologies
 
 - Node.js 22
