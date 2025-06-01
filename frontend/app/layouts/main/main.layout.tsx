@@ -8,6 +8,7 @@ import {
 } from '@/app/components/ui/sidebar';
 import { AppBreadcrumbs } from '@/app/layouts/main/components/app-breadcumbs';
 import { AppSidebar } from '@/app/layouts/main/components/app-sidebar';
+import { DiscordLikeSidebar } from './components/discord-like-sidebar';
 
 export function MainLayout() {
   return (
@@ -25,6 +26,7 @@ export function MainLayout() {
           <Outlet />
         </div>
       </SidebarInset>
+      <DiscordLikeSidebar />
     </SidebarProvider>
   );
 }
