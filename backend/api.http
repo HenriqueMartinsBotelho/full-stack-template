@@ -1,5 +1,18 @@
 @base = http://localhost:4003
 
+
+
+# @name login
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "h.botelho@gmail.com",
+    "password": "admin"
+}
+
+###
+
 # @name createUser
 POST {{base}}/users
 Content-Type: application/json
@@ -13,17 +26,11 @@ Content-Type: application/json
 
 ###
 GET {{base}}/users
+Authorization: Bearer {{login.response.body.access_token}}
 
 
 ###
 GET {{base}}/users/cmbcbmqxb0000tev6suv08xgt
 
 
-###
-POST {{base}}/auth/login
-Content-Type: application/json
 
-{
-    "email": "h.botelho@gmail.com",
-    "password": "admin"
-}

@@ -6,6 +6,7 @@ import { AuthController } from './auth.controller';
 @Module({
   imports: [
     JwtModule.register({
+      global: true,
       secret: 'um-segredo-para-nao-ser-hackeado',
       signOptions: { expiresIn: '2h', algorithm: 'HS256' },
     }),
