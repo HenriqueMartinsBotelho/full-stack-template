@@ -31,6 +31,11 @@ To run the backend, follow these steps:
 ## DevOps
 
 - Docker
-- Amplitude (for analytics)
+- ... (for analytics)
 
-## Others
+## TODO
+
+- Implete a logger/analytics service to track user interactions and application performance.
+- Implement a CI/CD pipeline for automated testing and deployment.
+- Add unit and integration tests for both frontend and backend.
+- Set up a monitoring service to track application health and performance.

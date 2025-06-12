@@ -15,7 +15,6 @@ export interface Config {
   routes?: typeof routes;
   i18nMessages: typeof messages;
   themeConfig?: ThemeConfig;
-  amplitudeKey: string;
 }
 
 export interface ConfigContextType {
@@ -34,7 +33,6 @@ const defaultContext: ConfigContextType = {
     apiUrl: '',
     routes: undefined,
     i18nMessages: messages,
-    amplitudeKey: '',
   },
 };
 
