@@ -46,5 +46,10 @@ export default defineConfig(({ mode }: ConfigEnv) => {
         },
       },
     },
+
+    preview: {
+      port: Number(env.VITE_PORT) || 3003,
+      host: true, // Allow external connections
+    },
   };
 });
