@@ -28,7 +28,7 @@ async function bootstrap() {
     // Add global prefix
     app.setGlobalPrefix('api');
 
-    const port = process.env.PORT || 5001;
+    const port = process.env.PORT || 3004;
     const host = process.env.HOST || '0.0.0.0'; // Bind to all interfaces
 
     logger.log(`🔧 Binding to host: ${host}`);
